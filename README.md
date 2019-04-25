@@ -1,5 +1,7 @@
 # scraperAME
 
+https://amescraper.herokuapp.com/
+
 **what is it**
 
 this is a scraper that pulls from the NY times webiste to give you the latest articles
