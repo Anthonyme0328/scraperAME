@@ -29,7 +29,7 @@ app.use(router);
 
 var db = process.env.MONGODB_URI || "mongodb://localhost/mongoHeadlines";
 
-mongoose.connect("mongodb://localhost/unit18Populater", { useNewUrlParser: true });
+mongoose.connect(MONGODB_URI)
 
 app.listen(PORT, function(){
   console.log('listening on port:' + PORT)
